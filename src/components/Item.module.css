@@ -1,0 +1,42 @@
+
+
+.container {
+  
+  width: 287px;
+  height: 83px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 25px;  
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.name{
+  font-size: 18px;
+  font-weight: 600;
+}
+.course{
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.containerBottom{
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 20px;   
+  width: 100%;
+}
+.capital{
+  font-size: 15px;
+  font-weight: 400;
+}
+.percentr{
+  color: #03CEA4;
+  font-size: 15px;
+  font-weight: 400;
+}
