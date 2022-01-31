@@ -6,7 +6,12 @@ export default function Header() {
     <div className={cn.container}>
       <div className={cn.containerHead}>
         <div className={cn.logotype}>Logotype</div>
-        <button className={cn.btnConnect}>Connect vallet</button>
+        <button
+          className={cn.btnConnect}
+          onClick={() => alert('you pressed the button')}
+        >
+          Connect vallet
+        </button>
       </div>
       <p className={cn.text}>All Indeces</p>
     </div>

@@ -1,5 +1,5 @@
-
-export const ABI = [{
+export const ABI = [
+  {
     inputs: [],
     payable: false,
     stateMutability: 'nonpayable',
@@ -40,5 +40,5 @@ export const ABI = [{
     payable: false,
     stateMutability: 'view',
     type: 'function',
-  }
+  },
 ];

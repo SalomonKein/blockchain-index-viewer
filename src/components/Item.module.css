@@ -1,42 +1,41 @@
-
-
 .container {
-  
-  width: 287px;
+  width: 225px;
   height: 83px;
+  margin: 5px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  padding: 25px;  
+  padding: 25px;
+  cursor: pointer;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-.name{
+.name {
   font-size: 18px;
   font-weight: 600;
 }
-.course{
+.course {
   margin-top: 10px;
   font-size: 18px;
   font-weight: 500;
 }
-.containerBottom{
+.containerBottom {
   display: flex;
-  justify-content: space-between; 
-  margin-top: 20px;   
+  justify-content: space-between;
+  margin-top: 20px;
   width: 100%;
 }
-.capital{
+.capital {
   font-size: 15px;
   font-weight: 400;
 }
-.percentr{
-  color: #03CEA4;
+.percentr {
+  color: #03cea4;
   font-size: 15px;
   font-weight: 400;
 }

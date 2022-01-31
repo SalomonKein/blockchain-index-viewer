@@ -1,21 +1,21 @@
-
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
-.containerHead{
+.containerHead {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 5vw;
 }
-.logotype{
+.logotype {
   font-weight: 600;
+  cursor: pointer;
 }
-.btnConnect{
+.btnConnect {
   display: inline;
+  cursor: pointer;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -23,11 +23,12 @@
   -o-border-radius: 6px;
   align-self: flex-end;
   font-weight: 600;
-
 }
-.text{
+.btnConnect:hover {
+  background: rgb(238, 219, 219);
+}
+.text {
   font-size: 2rem;
   font-family: 'Playfair Display';
   font-weight: 700;
-
 }
